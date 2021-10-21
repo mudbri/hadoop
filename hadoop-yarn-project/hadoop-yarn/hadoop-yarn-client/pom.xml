@@ -28,6 +28,7 @@
     <yarn.basedir>${project.parent.basedir}</yarn.basedir>
     <should.run.jdiff>true</should.run.jdiff>
     <dev-support.relative.dir>../dev-support</dev-support.relative.dir>
+    <zookeeper.version>3.5.6</zookeeper.version>
   </properties>
 
   <dependencies>
@@ -86,6 +87,7 @@
     <dependency>
       <groupId>org.apache.zookeeper</groupId>
       <artifactId>zookeeper</artifactId>
+       <version>${zookeeper.version}</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>

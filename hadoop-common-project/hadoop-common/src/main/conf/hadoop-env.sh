@@ -101,6 +101,7 @@ export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 # such commands.  In most cases, # this should be left empty and
 # let users supply it on the command line.
 # export HADOOP_CLIENT_OPTS=""
+export HADOOP_CLIENT_OPTS="-Xmx2048m $HADOOP_CLIENT_OPTS"
 
 #
 # A note about classpaths.

@@ -32,6 +32,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <properties>
     <hadoop.component>hdfs</hadoop.component>
     <is.hadoop.component>true</is.hadoop.component>
+    <zookeeper.version>3.5.6</zookeeper.version>
   </properties>
 
   <dependencies>
@@ -59,6 +60,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <dependency>
       <groupId>org.apache.zookeeper</groupId>
       <artifactId>zookeeper</artifactId>
+      <version>${zookeeper.version}</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
